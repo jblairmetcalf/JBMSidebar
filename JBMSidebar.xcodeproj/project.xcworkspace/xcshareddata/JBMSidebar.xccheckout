@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B62AADA-F023-47B5-951A-C4FF7FF751F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JBMSidebar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1D9BD3C3FF137147D5E959870781478755289ADE</key>
+		<string>https://github.com/jblairmetcalf/JBMSidebar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JBMSidebar.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1D9BD3C3FF137147D5E959870781478755289ADE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jblairmetcalf/JBMSidebar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1D9BD3C3FF137147D5E959870781478755289ADE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D9BD3C3FF137147D5E959870781478755289ADE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JBMSidebar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
