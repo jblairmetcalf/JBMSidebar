@@ -1,0 +1,48 @@
+{
+    "title": "Sidebar",
+    "sections": [
+        {
+            "sidebarTitle": "Lorem",
+            "sidebarImage": "JBMSidebarRevealCell-lorem",
+            "contentTitle": "Ipsum",
+            "contentImage": "JBMSidebarContentController-lorem",
+            "navigationItemLayout": true,
+            "navigationItemOptions": true
+        },
+        {
+            "sidebarTitle": "Ipsum",
+            "sidebarImage": "JBMSidebarRevealCell-ipsum",
+            "contentTitle": "Ipsum",
+            "contentImage": "JBMSidebarContentController-ipsum",
+            "navigationItemLayout": true
+        },
+        {
+            "sidebarTitle": "Dolor",
+            "sidebarImage": "JBMSidebarRevealCell-dolor",
+            "contentTitle": "Dolor",
+            "contentImage": "JBMSidebarContentController-dolor",
+            "navigationItemOptions": true
+        },
+        {
+            "sidebarTitle": "Sit",
+            "sidebarImage": "JBMSidebarRevealCell-sit",
+            "contentTitle": "Sit",
+            "contentImage": "JBMSidebarContentController-sit"
+        },
+        {
+            "sidebarTitle": "Amet",
+            "sidebarImage": "JBMSidebarRevealCell-amet",
+            "contentTitle": "Amet",
+            "contentImage": "JBMSidebarContentController-amet",
+            "navigationItemLayout": true,
+            "navigationItemOptions": true
+        },
+        {
+            "sidebarTitle": "Consectetur",
+            "sidebarImage": "JBMSidebarRevealCell-consectetur",
+            "contentTitle": "Consectetur",
+            "contentImage": "JBMSidebarContentController-consectetur",
+            "navigationItemLayout": true
+        }
+    ]
+}

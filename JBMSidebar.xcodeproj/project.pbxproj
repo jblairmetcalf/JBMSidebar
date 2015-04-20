@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029E60BD1AE47FC700C14DCA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E60BC1AE47FC700C14DCA /* SWRevealViewController.m */; };
+		029E60CF1AE480F300C14DCA /* JBMSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E60CE1AE480F300C14DCA /* JBMSidebarController.m */; };
+		029E60DF1AE48A3700C14DCA /* JBMSidebarContentNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E60D51AE48A3700C14DCA /* JBMSidebarContentNavigationController.m */; };
+		029E60E01AE48A3700C14DCA /* JBMSidebarContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E60D71AE48A3700C14DCA /* JBMSidebarContentController.m */; };
+		029E60E11AE48A3700C14DCA /* JBMSidebarRevealNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E60DA1AE48A3700C14DCA /* JBMSidebarRevealNavigationController.m */; };
+		029E60E21AE48A3700C14DCA /* JBMSidebarRevealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E60DC1AE48A3700C14DCA /* JBMSidebarRevealCell.m */; };
+		029E60E31AE48A3700C14DCA /* JBMSidebarRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029E60DE1AE48A3700C14DCA /* JBMSidebarRevealController.m */; };
+		02AD3E0B1AE477B0009C10AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E0A1AE477B0009C10AD /* main.m */; };
+		02AD3E0E1AE477B0009C10AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E0D1AE477B0009C10AD /* AppDelegate.m */; };
+		02AD3E141AE477B0009C10AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AD3E121AE477B0009C10AD /* Main.storyboard */; };
+		02AD3E161AE477B0009C10AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AD3E151AE477B0009C10AD /* Images.xcassets */; };
+		02AD3E251AE477B1009C10AD /* JBMSidebarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E241AE477B1009C10AD /* JBMSidebarTests.m */; };
+		02AD3E2F1AE478F6009C10AD /* JBMSidebarModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AD3E2E1AE478F6009C10AD /* JBMSidebarModel.json */; };
+		02AD3E361AE479B2009C10AD /* JBMSidebarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E351AE479B2009C10AD /* JBMSidebarConstants.m */; };
+		02AD3E391AE479C2009C10AD /* JBMSidebarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E381AE479C2009C10AD /* JBMSidebarModel.m */; };
+		02AD3E411AE47AE9009C10AD /* NSDictionary+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E3C1AE47AE9009C10AD /* NSDictionary+Utility.m */; };
+		02AD3E421AE47AE9009C10AD /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E3E1AE47AE9009C10AD /* NSString+Utility.m */; };
+		02AD3E431AE47AE9009C10AD /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E401AE47AE9009C10AD /* UIColor+Utility.m */; };
+		02AD3E491AE47BDF009C10AD /* JBMSidebarNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E481AE47BDF009C10AD /* JBMSidebarNavigationBar.m */; };
+		02AD3E521AE47E0D009C10AD /* JBMCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E4F1AE47E0D009C10AD /* JBMCircleView.m */; };
+		02AD3E531AE47E0D009C10AD /* JBMTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AD3E511AE47E0D009C10AD /* JBMTouchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02AD3E1F1AE477B1009C10AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02AD3DFD1AE477B0009C10AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AD3E041AE477B0009C10AD;
+			remoteInfo = JBMSidebar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029E60BB1AE47FC700C14DCA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		029E60BC1AE47FC700C14DCA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		029E60CD1AE480F300C14DCA /* JBMSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBMSidebarController.h; path = Classes/Controllers/JBMSidebarController.h; sourceTree = "<group>"; };
+		029E60CE1AE480F300C14DCA /* JBMSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBMSidebarController.m; path = Classes/Controllers/JBMSidebarController.m; sourceTree = "<group>"; };
+		029E60D41AE48A3700C14DCA /* JBMSidebarContentNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMSidebarContentNavigationController.h; sourceTree = "<group>"; };
+		029E60D51AE48A3700C14DCA /* JBMSidebarContentNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMSidebarContentNavigationController.m; sourceTree = "<group>"; };
+		029E60D61AE48A3700C14DCA /* JBMSidebarContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMSidebarContentController.h; sourceTree = "<group>"; };
+		029E60D71AE48A3700C14DCA /* JBMSidebarContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMSidebarContentController.m; sourceTree = "<group>"; };
+		029E60D91AE48A3700C14DCA /* JBMSidebarRevealNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMSidebarRevealNavigationController.h; sourceTree = "<group>"; };
+		029E60DA1AE48A3700C14DCA /* JBMSidebarRevealNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMSidebarRevealNavigationController.m; sourceTree = "<group>"; };
+		029E60DB1AE48A3700C14DCA /* JBMSidebarRevealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMSidebarRevealCell.h; sourceTree = "<group>"; };
+		029E60DC1AE48A3700C14DCA /* JBMSidebarRevealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMSidebarRevealCell.m; sourceTree = "<group>"; };
+		029E60DD1AE48A3700C14DCA /* JBMSidebarRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMSidebarRevealController.h; sourceTree = "<group>"; };
+		029E60DE1AE48A3700C14DCA /* JBMSidebarRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMSidebarRevealController.m; sourceTree = "<group>"; };
+		02AD3E051AE477B0009C10AD /* JBMSidebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBMSidebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AD3E091AE477B0009C10AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AD3E0A1AE477B0009C10AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02AD3E0C1AE477B0009C10AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02AD3E0D1AE477B0009C10AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02AD3E131AE477B0009C10AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02AD3E151AE477B0009C10AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02AD3E1E1AE477B1009C10AD /* JBMSidebarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBMSidebarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AD3E231AE477B1009C10AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AD3E241AE477B1009C10AD /* JBMSidebarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBMSidebarTests.m; sourceTree = "<group>"; };
+		02AD3E2E1AE478F6009C10AD /* JBMSidebarModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JBMSidebarModel.json; path = "Supporting Files/JBMSidebarModel.json"; sourceTree = "<group>"; };
+		02AD3E341AE479B2009C10AD /* JBMSidebarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBMSidebarConstants.h; path = Classes/Models/JBMSidebarConstants.h; sourceTree = "<group>"; };
+		02AD3E351AE479B2009C10AD /* JBMSidebarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBMSidebarConstants.m; path = Classes/Models/JBMSidebarConstants.m; sourceTree = "<group>"; };
+		02AD3E371AE479C2009C10AD /* JBMSidebarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBMSidebarModel.h; path = Classes/Models/JBMSidebarModel.h; sourceTree = "<group>"; };
+		02AD3E381AE479C2009C10AD /* JBMSidebarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBMSidebarModel.m; path = Classes/Models/JBMSidebarModel.m; sourceTree = "<group>"; };
+		02AD3E3B1AE47AE9009C10AD /* NSDictionary+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utility.h"; sourceTree = "<group>"; };
+		02AD3E3C1AE47AE9009C10AD /* NSDictionary+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utility.m"; sourceTree = "<group>"; };
+		02AD3E3D1AE47AE9009C10AD /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		02AD3E3E1AE47AE9009C10AD /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		02AD3E3F1AE47AE9009C10AD /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		02AD3E401AE47AE9009C10AD /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		02AD3E471AE47BDF009C10AD /* JBMSidebarNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBMSidebarNavigationBar.h; path = Classes/Views/JBMSidebarNavigationBar.h; sourceTree = "<group>"; };
+		02AD3E481AE47BDF009C10AD /* JBMSidebarNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBMSidebarNavigationBar.m; path = Classes/Views/JBMSidebarNavigationBar.m; sourceTree = "<group>"; };
+		02AD3E4E1AE47E0D009C10AD /* JBMCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBMCircleView.h; path = Reuseable/JBMCircleView.h; sourceTree = "<group>"; };
+		02AD3E4F1AE47E0D009C10AD /* JBMCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBMCircleView.m; path = Reuseable/JBMCircleView.m; sourceTree = "<group>"; };
+		02AD3E501AE47E0D009C10AD /* JBMTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBMTouchView.h; path = Reuseable/JBMTouchView.h; sourceTree = "<group>"; };
+		02AD3E511AE47E0D009C10AD /* JBMTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBMTouchView.m; path = Reuseable/JBMTouchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02AD3E021AE477B0009C10AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AD3E1B1AE477B1009C10AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029E60BA1AE47FC700C14DCA /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				029E60BB1AE47FC700C14DCA /* SWRevealViewController.h */,
+				029E60BC1AE47FC700C14DCA /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			path = "Supporting Files/SWRevealViewController";
+			sourceTree = "<group>";
+		};
+		029E60D31AE48A3700C14DCA /* JBMSidebarContentController */ = {
+			isa = PBXGroup;
+			children = (
+				029E60D41AE48A3700C14DCA /* JBMSidebarContentNavigationController.h */,
+				029E60D51AE48A3700C14DCA /* JBMSidebarContentNavigationController.m */,
+				029E60D61AE48A3700C14DCA /* JBMSidebarContentController.h */,
+				029E60D71AE48A3700C14DCA /* JBMSidebarContentController.m */,
+			);
+			name = JBMSidebarContentController;
+			path = Classes/JBMSidebarContentController;
+			sourceTree = "<group>";
+		};
+		029E60D81AE48A3700C14DCA /* JBMSidebarRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				029E60D91AE48A3700C14DCA /* JBMSidebarRevealNavigationController.h */,
+				029E60DA1AE48A3700C14DCA /* JBMSidebarRevealNavigationController.m */,
+				029E60DD1AE48A3700C14DCA /* JBMSidebarRevealController.h */,
+				029E60DE1AE48A3700C14DCA /* JBMSidebarRevealController.m */,
+				029E60DB1AE48A3700C14DCA /* JBMSidebarRevealCell.h */,
+				029E60DC1AE48A3700C14DCA /* JBMSidebarRevealCell.m */,
+			);
+			name = JBMSidebarRevealController;
+			path = Classes/JBMSidebarRevealController;
+			sourceTree = "<group>";
+		};
+		02AD3DFC1AE477B0009C10AD = {
+			isa = PBXGroup;
+			children = (
+				02AD3E071AE477B0009C10AD /* JBMSidebar */,
+				02AD3E211AE477B1009C10AD /* JBMSidebarTests */,
+				02AD3E061AE477B0009C10AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02AD3E061AE477B0009C10AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E051AE477B0009C10AD /* JBMSidebar.app */,
+				02AD3E1E1AE477B1009C10AD /* JBMSidebarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02AD3E071AE477B0009C10AD /* JBMSidebar */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E0C1AE477B0009C10AD /* AppDelegate.h */,
+				02AD3E0D1AE477B0009C10AD /* AppDelegate.m */,
+				02AD3E121AE477B0009C10AD /* Main.storyboard */,
+				02AD3E151AE477B0009C10AD /* Images.xcassets */,
+				02AD3E301AE47973009C10AD /* Classes */,
+				02AD3E4D1AE47E01009C10AD /* Reuseable */,
+				02AD3E3A1AE47AE9009C10AD /* Categories */,
+				02AD3E081AE477B0009C10AD /* Supporting Files */,
+			);
+			path = JBMSidebar;
+			sourceTree = "<group>";
+		};
+		02AD3E081AE477B0009C10AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E091AE477B0009C10AD /* Info.plist */,
+				02AD3E2E1AE478F6009C10AD /* JBMSidebarModel.json */,
+				02AD3E0A1AE477B0009C10AD /* main.m */,
+				029E60BA1AE47FC700C14DCA /* SWRevealViewController */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02AD3E211AE477B1009C10AD /* JBMSidebarTests */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E241AE477B1009C10AD /* JBMSidebarTests.m */,
+				02AD3E221AE477B1009C10AD /* Supporting Files */,
+			);
+			path = JBMSidebarTests;
+			sourceTree = "<group>";
+		};
+		02AD3E221AE477B1009C10AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E231AE477B1009C10AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02AD3E301AE47973009C10AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				029E60D31AE48A3700C14DCA /* JBMSidebarContentController */,
+				029E60D81AE48A3700C14DCA /* JBMSidebarRevealController */,
+				02AD3E311AE4797A009C10AD /* Controllers */,
+				02AD3E331AE47989009C10AD /* Models */,
+				02AD3E321AE47981009C10AD /* Views */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		02AD3E311AE4797A009C10AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				029E60CD1AE480F300C14DCA /* JBMSidebarController.h */,
+				029E60CE1AE480F300C14DCA /* JBMSidebarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		02AD3E321AE47981009C10AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E471AE47BDF009C10AD /* JBMSidebarNavigationBar.h */,
+				02AD3E481AE47BDF009C10AD /* JBMSidebarNavigationBar.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		02AD3E331AE47989009C10AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E341AE479B2009C10AD /* JBMSidebarConstants.h */,
+				02AD3E351AE479B2009C10AD /* JBMSidebarConstants.m */,
+				02AD3E371AE479C2009C10AD /* JBMSidebarModel.h */,
+				02AD3E381AE479C2009C10AD /* JBMSidebarModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		02AD3E3A1AE47AE9009C10AD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E3B1AE47AE9009C10AD /* NSDictionary+Utility.h */,
+				02AD3E3C1AE47AE9009C10AD /* NSDictionary+Utility.m */,
+				02AD3E3D1AE47AE9009C10AD /* NSString+Utility.h */,
+				02AD3E3E1AE47AE9009C10AD /* NSString+Utility.m */,
+				02AD3E3F1AE47AE9009C10AD /* UIColor+Utility.h */,
+				02AD3E401AE47AE9009C10AD /* UIColor+Utility.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		02AD3E4D1AE47E01009C10AD /* Reuseable */ = {
+			isa = PBXGroup;
+			children = (
+				02AD3E4E1AE47E0D009C10AD /* JBMCircleView.h */,
+				02AD3E4F1AE47E0D009C10AD /* JBMCircleView.m */,
+				02AD3E501AE47E0D009C10AD /* JBMTouchView.h */,
+				02AD3E511AE47E0D009C10AD /* JBMTouchView.m */,
+			);
+			name = Reuseable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02AD3E041AE477B0009C10AD /* JBMSidebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AD3E281AE477B1009C10AD /* Build configuration list for PBXNativeTarget "JBMSidebar" */;
+			buildPhases = (
+				02AD3E011AE477B0009C10AD /* Sources */,
+				02AD3E021AE477B0009C10AD /* Frameworks */,
+				02AD3E031AE477B0009C10AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBMSidebar;
+			productName = JBMSidebar;
+			productReference = 02AD3E051AE477B0009C10AD /* JBMSidebar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02AD3E1D1AE477B1009C10AD /* JBMSidebarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AD3E2B1AE477B1009C10AD /* Build configuration list for PBXNativeTarget "JBMSidebarTests" */;
+			buildPhases = (
+				02AD3E1A1AE477B1009C10AD /* Sources */,
+				02AD3E1B1AE477B1009C10AD /* Frameworks */,
+				02AD3E1C1AE477B1009C10AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02AD3E201AE477B1009C10AD /* PBXTargetDependency */,
+			);
+			name = JBMSidebarTests;
+			productName = JBMSidebarTests;
+			productReference = 02AD3E1E1AE477B1009C10AD /* JBMSidebarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02AD3DFD1AE477B0009C10AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "J Blair Metcalf";
+				TargetAttributes = {
+					02AD3E041AE477B0009C10AD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					02AD3E1D1AE477B1009C10AD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 02AD3E041AE477B0009C10AD;
+					};
+				};
+			};
+			buildConfigurationList = 02AD3E001AE477B0009C10AD /* Build configuration list for PBXProject "JBMSidebar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02AD3DFC1AE477B0009C10AD;
+			productRefGroup = 02AD3E061AE477B0009C10AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02AD3E041AE477B0009C10AD /* JBMSidebar */,
+				02AD3E1D1AE477B1009C10AD /* JBMSidebarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02AD3E031AE477B0009C10AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AD3E2F1AE478F6009C10AD /* JBMSidebarModel.json in Resources */,
+				02AD3E141AE477B0009C10AD /* Main.storyboard in Resources */,
+				02AD3E161AE477B0009C10AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AD3E1C1AE477B1009C10AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02AD3E011AE477B0009C10AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029E60BD1AE47FC700C14DCA /* SWRevealViewController.m in Sources */,
+				02AD3E531AE47E0D009C10AD /* JBMTouchView.m in Sources */,
+				029E60E31AE48A3700C14DCA /* JBMSidebarRevealController.m in Sources */,
+				02AD3E431AE47AE9009C10AD /* UIColor+Utility.m in Sources */,
+				02AD3E421AE47AE9009C10AD /* NSString+Utility.m in Sources */,
+				02AD3E391AE479C2009C10AD /* JBMSidebarModel.m in Sources */,
+				02AD3E411AE47AE9009C10AD /* NSDictionary+Utility.m in Sources */,
+				029E60DF1AE48A3700C14DCA /* JBMSidebarContentNavigationController.m in Sources */,
+				02AD3E361AE479B2009C10AD /* JBMSidebarConstants.m in Sources */,
+				02AD3E521AE47E0D009C10AD /* JBMCircleView.m in Sources */,
+				029E60CF1AE480F300C14DCA /* JBMSidebarController.m in Sources */,
+				02AD3E0E1AE477B0009C10AD /* AppDelegate.m in Sources */,
+				029E60E01AE48A3700C14DCA /* JBMSidebarContentController.m in Sources */,
+				02AD3E491AE47BDF009C10AD /* JBMSidebarNavigationBar.m in Sources */,
+				029E60E11AE48A3700C14DCA /* JBMSidebarRevealNavigationController.m in Sources */,
+				02AD3E0B1AE477B0009C10AD /* main.m in Sources */,
+				029E60E21AE48A3700C14DCA /* JBMSidebarRevealCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AD3E1A1AE477B1009C10AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AD3E251AE477B1009C10AD /* JBMSidebarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02AD3E201AE477B1009C10AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02AD3E041AE477B0009C10AD /* JBMSidebar */;
+			targetProxy = 02AD3E1F1AE477B1009C10AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02AD3E121AE477B0009C10AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AD3E131AE477B0009C10AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02AD3E261AE477B1009C10AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02AD3E271AE477B1009C10AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02AD3E291AE477B1009C10AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JBMSidebar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02AD3E2A1AE477B1009C10AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JBMSidebar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02AD3E2C1AE477B1009C10AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JBMSidebarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBMSidebar.app/JBMSidebar";
+			};
+			name = Debug;
+		};
+		02AD3E2D1AE477B1009C10AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JBMSidebarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JBMSidebar.app/JBMSidebar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02AD3E001AE477B0009C10AD /* Build configuration list for PBXProject "JBMSidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AD3E261AE477B1009C10AD /* Debug */,
+				02AD3E271AE477B1009C10AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02AD3E281AE477B1009C10AD /* Build configuration list for PBXNativeTarget "JBMSidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AD3E291AE477B1009C10AD /* Debug */,
+				02AD3E2A1AE477B1009C10AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02AD3E2B1AE477B1009C10AD /* Build configuration list for PBXNativeTarget "JBMSidebarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AD3E2C1AE477B1009C10AD /* Debug */,
+				02AD3E2D1AE477B1009C10AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02AD3DFD1AE477B0009C10AD /* Project object */;
+}
